@@ -1,0 +1,125 @@
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 375px;
+    height: 612px;
+}
+
+header, main, footer {
+    width: 375px;
+    display: flex;
+}
+
+header {
+    height: 67px;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    align-items: center;
+}
+
+main {
+    flex-direction: column;    
+}
+
+.top-section {
+    display: flex;
+}
+
+.name-field {
+    margin: auto 0;
+}
+
+.name, #likes, .likes, #nickname, #comment {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#comment {
+    font-weight: 400;    
+}
+
+#likes, .likes {
+    margin: 11.87px 0 7px;
+}
+
+.place {
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+footer {
+    /* margin: 10px 18px 7px 10px;    */
+    margin: 21px 18px 16px 10px;   
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 127px;
+    height: 33.02px;
+    margin: 0 0 0 15px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 16px 0;
+}
+
+.vg-avatar {
+    margin: 10px;
+}
+
+.vfg {
+    width: 375px;
+    height: 375px;
+}
+
+#heart {
+    width: 23.3px;
+    height: 22.13px;
+    padding: 2.213px 2.33px;
+}
+
+#heart:hover {
+    width: 27.96px;
+    height: 26.556px;
+    padding: 0;
+}
+
+#comment {
+    width: 18.65px;
+    height: 18.65px;
+    margin: 0 10px;
+    padding: 1.865px;
+}
+
+#comment:hover {
+    width: 22.38px;
+    height: 22.38px;
+    padding: 0;
+}
+
+#dm {
+    width: 22.38px;
+    height: 18.65px;
+    padding: 1.865 2.238px;    
+}
+
+#dm:hover {
+    width: 26.856px;
+    height: 22.38px;
+    padding: 0;
+}
